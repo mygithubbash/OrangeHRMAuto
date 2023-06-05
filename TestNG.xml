@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Orange_HRM">
+  <test name="Orange Hrm" >
+	  <parameter name="browser" value="chrome"/>
+    <classes>
+       <class name="com.Orange_HRM.testCases.TC_LoginTest_001" />
+    </classes>
+  </test>
+</suite>
